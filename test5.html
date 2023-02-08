@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+    <link rel="stylesheet" href="../style/test5.css">
+    <script src="../site3/test5.js"></script>
+   
+    </head>
+    <body >
+    
+       
+<div id="header">
+    <label class="switch">
+        <input type="checkbox" onclick="changeColor()" id="slider"  >
+        <span class="slider round" ></span>
+      </label>
+    
+  <button onclick="openNav()" class="openbtn"  ></button>
+  
+  <input type="text" id="searchline" placeholder="Search...."> 
+</div>
+
+<div id="myMenu" (clickOutside)="close($event)"  class="myMenu">
+    <a  href="#">ABOUT</a>
+    <a  href="#">CONTACT</a>
+    <a  href="#">ME</a>
+    <a  href="#">YOU</a>
+   
+</div>
+
+
+<div id="tabs-content">
+
+</div>
+
+
+
+
+
+    </body>
+</html>
